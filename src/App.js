@@ -14,8 +14,18 @@ import {
   useTheme,
 } from "@mui/material";
 import Container from "@mui/material/Container";
+
 import Data from "./Data.json";
+
 import ImagenPortada from "./assets/Cheladas.jpeg";
+
+import ImageArequipe from "./assets/img/Arequipe.jpeg";
+import ImageBarrilete from "./assets/img/Barrilete.jpeg";
+import ImageBubbaloo from "./assets/img/Buba.jpeg";
+import ImageCafe from "./assets/img/Cafe.jpeg";
+import ImageCereza from "./assets/img/Cereza.jpeg";
+import ImageChocolate from "./assets/img/Chocolate.jpeg";
+import ImageChocorramo from "./assets/img/Chocorramo.jpeg";
 
 function App() {
 
@@ -23,12 +33,32 @@ function App() {
   const [image, setImage] = useState('');
   const theme = useTheme();
   const isBetween = useMediaQuery(theme.breakpoints.between(0, 487));
-  console.log(isBetween);
   
-  const handleClick = (event, imagen) => {
+  const handleClick = (event, result) => {
+    let result1 = resultImage(result.id);
     setShowModal(true);
-    setImage(imagen);
-    console.log(event.target, imagen);
+    setImage(result1);
+  };
+
+  const resultImage = (requestId) => {
+    switch(requestId) {
+      case 1: 
+        return ImageArequipe;
+      case 2: 
+        return ImageBarrilete;
+      case 3:
+        return ImageBubbaloo;
+      case 4:
+        return ImageCafe;
+      case 5: 
+        return ImageCereza;
+      case 6:
+        return ImageChocolate;
+      case 7:
+        return ImageChocorramo;
+      default:
+        return ImageArequipe;
+    }
   };
 
   const handleClose = () => setShowModal(false);
@@ -60,7 +90,7 @@ function App() {
                   <CardMedia
                     component="img"
                     height="140"
-                    image={result.img}
+                    image={resultImage(result.id)}
                     alt="imagen"
                     style={{ borderRadius: "5px" }}
                   />
@@ -74,7 +104,7 @@ function App() {
                   </CardContent>
                 </CardActionArea>
                 <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
-                  <Button variant="contained" onClick={(e) =>  handleClick(e, result.img)} >
+                  <Button variant="contained" onClick={(e) =>  handleClick(e, result)} >
                     Ver imagen
                   </Button>
                 </CardActions>
