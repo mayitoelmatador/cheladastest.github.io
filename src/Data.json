@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Malteada de arequipe",
+        "desc": "Deliciosa malteada de arequipe",
+        "img": "/img/Arequipe.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Malteada de Barrilete",
+        "desc": "Deliciosa malteada de arequipe",
+        "img": "/img/Barrilete.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Malteada de Bubbaloo",
+        "desc": "Deliciosa malteada de Bubbaloo",
+        "img": "/img/Buba.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Malteada de Cafe",
+        "desc": "Deliciosa malteada de Cafe",
+        "img": "/img/Cafe.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Malteada de Cereza",
+        "desc": "Deliciosa malteada de Cereza",
+        "img": "/img/Cereza.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Malteada de Chocolate",
+        "desc": "Deliciosa malteada de Chocolate",
+        "img": "/img/Chocolate.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Malteada de Chocorramo",
+        "desc": "Deliciosa malteada de Chocorramo",
+        "img": "/img/Chocorramo.jpeg"
+    }
+]
