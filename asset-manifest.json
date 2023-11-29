@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cheladastest.github.io/static/css/main.856f4cb2.css",
+    "main.js": "/cheladastest.github.io/static/js/main.73ebc1f6.js",
+    "static/js/787.d5fa4d18.chunk.js": "/cheladastest.github.io/static/js/787.d5fa4d18.chunk.js",
+    "static/media/Cheladas.jpeg": "/cheladastest.github.io/static/media/Cheladas.92aae856a2ec6e426a19.jpeg",
+    "index.html": "/cheladastest.github.io/index.html",
+    "main.856f4cb2.css.map": "/cheladastest.github.io/static/css/main.856f4cb2.css.map",
+    "main.73ebc1f6.js.map": "/cheladastest.github.io/static/js/main.73ebc1f6.js.map",
+    "787.d5fa4d18.chunk.js.map": "/cheladastest.github.io/static/js/787.d5fa4d18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.856f4cb2.css",
+    "static/js/main.73ebc1f6.js"
+  ]
+}
