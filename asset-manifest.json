@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/cheladastest.github.io/static/css/main.856f4cb2.css",
-    "main.js": "/cheladastest.github.io/static/js/main.73ebc1f6.js",
+    "main.js": "/cheladastest.github.io/static/js/main.a296cd22.js",
     "static/js/787.d5fa4d18.chunk.js": "/cheladastest.github.io/static/js/787.d5fa4d18.chunk.js",
+    "static/media/Cafe.jpeg": "/cheladastest.github.io/static/media/Cafe.0fd074d07b9a7f4eb6e3.jpeg",
+    "static/media/Buba.jpeg": "/cheladastest.github.io/static/media/Buba.9a345579f73fcae37cea.jpeg",
+    "static/media/Barrilete.jpeg": "/cheladastest.github.io/static/media/Barrilete.e69f33282c1cbc7028c7.jpeg",
+    "static/media/Arequipe.jpeg": "/cheladastest.github.io/static/media/Arequipe.89a8fd1aac730e727673.jpeg",
+    "static/media/Chocorramo.jpeg": "/cheladastest.github.io/static/media/Chocorramo.a7c7e354a34858243deb.jpeg",
+    "static/media/Cereza.jpeg": "/cheladastest.github.io/static/media/Cereza.81e4a76525c12f6973a7.jpeg",
+    "static/media/Chocolate.jpeg": "/cheladastest.github.io/static/media/Chocolate.a2d6a3cb7dba7bea5dcc.jpeg",
     "static/media/Cheladas.jpeg": "/cheladastest.github.io/static/media/Cheladas.92aae856a2ec6e426a19.jpeg",
     "index.html": "/cheladastest.github.io/index.html",
     "main.856f4cb2.css.map": "/cheladastest.github.io/static/css/main.856f4cb2.css.map",
-    "main.73ebc1f6.js.map": "/cheladastest.github.io/static/js/main.73ebc1f6.js.map",
+    "main.a296cd22.js.map": "/cheladastest.github.io/static/js/main.a296cd22.js.map",
     "787.d5fa4d18.chunk.js.map": "/cheladastest.github.io/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.856f4cb2.css",
-    "static/js/main.73ebc1f6.js"
+    "static/js/main.a296cd22.js"
   ]
 }
